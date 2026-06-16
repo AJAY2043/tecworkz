@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t1",
+    "name": "Sarah Mitchell",
+    "role": "Owner, Riverside Cafe",
+    "quote": "TecWorkz rebuilt our booking website and it's made a real difference to how customers reach us. Quick to respond and easy to work with throughout.",
+    "rating": 5
+  },
+  {
+    "id": "t2",
+    "name": "David Chen",
+    "role": "Operations Manager, BrightPath Logistics",
+    "quote": "Our network kept dropping out before TecWorkz stepped in. They diagnosed the issue fast and set up a system that's been rock solid since.",
+    "rating": 5
+  },
+  {
+    "id": "t3",
+    "name": "Priya Nair",
+    "role": "Founder, Nair Consulting",
+    "quote": "I needed a professional site fast and TecWorkz delivered exactly that, on time and within budget, with clear communication the whole way.",
+    "rating": 5
+  }
+]

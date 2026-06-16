@@ -1,0 +1,20 @@
+[
+  {
+    "id": "m1",
+    "name": "Ravi Kumar",
+    "role": "Founder & Lead Developer",
+    "bio": "Leads development and technical strategy across all TecWorkz projects, from web builds to network rollouts."
+  },
+  {
+    "id": "m2",
+    "name": "Team Member",
+    "role": "IT Support Specialist",
+    "bio": "Keeps client systems running smoothly with fast, friendly day-to-day support."
+  },
+  {
+    "id": "m3",
+    "name": "Team Member",
+    "role": "Network & Infrastructure Engineer",
+    "bio": "Designs and maintains the networks and infrastructure that keep businesses connected."
+  }
+]

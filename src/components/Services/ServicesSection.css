@@ -1,0 +1,28 @@
+.services-section {
+  background: var(--white);
+}
+
+.section-head {
+  max-width: 640px;
+  margin-bottom: 48px;
+}
+
+.services-section__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* ===== Responsive: tablet ===== */
+@media (max-width: 1024px) {
+  .services-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===== Responsive: mobile ===== */
+@media (max-width: 640px) {
+  .services-section__grid {
+    grid-template-columns: 1fr;
+  }
+}

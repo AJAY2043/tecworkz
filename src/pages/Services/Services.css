@@ -1,0 +1,122 @@
+.services-page {
+  background: var(--white);
+}
+
+.services-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+}
+
+.services-page__row {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 56px;
+  align-items: center;
+  scroll-margin-top: 100px;
+}
+
+.services-page__row--reverse {
+  grid-template-columns: 1fr 280px;
+}
+
+.services-page__row--reverse .services-page__icon-block {
+  order: 2;
+}
+
+.services-page__icon-block {
+  display: flex;
+  justify-content: center;
+}
+
+.services-page__icon {
+  width: 160px;
+  height: 160px;
+  border-radius: 28px;
+  background: var(--gradient-soft);
+  color: var(--blue);
+  font-size: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-page__content h2 {
+  font-size: clamp(24px, 3vw, 30px);
+  color: var(--navy);
+  margin-bottom: 14px;
+}
+
+.services-page__description {
+  font-size: 16px;
+  color: var(--slate);
+  margin-bottom: 24px;
+  max-width: 600px;
+}
+
+.services-page__features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  max-width: 600px;
+}
+
+.services-page__features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14.5px;
+  color: var(--navy);
+}
+
+.services-page__features svg {
+  color: var(--blue);
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+/* ===== Responsive: tablet ===== */
+@media (max-width: 880px) {
+  .services-page__row,
+  .services-page__row--reverse {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    text-align: center;
+  }
+
+  .services-page__row--reverse .services-page__icon-block {
+    order: 0;
+  }
+
+  .services-page__icon {
+    width: 120px;
+    height: 120px;
+    font-size: 42px;
+  }
+
+  .services-page__description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .services-page__features {
+    grid-template-columns: 1fr;
+    max-width: 380px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+
+/* ===== Responsive: mobile ===== */
+@media (max-width: 480px) {
+  .services-page__list {
+    gap: 56px;
+  }
+
+  .services-page__icon {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    border-radius: 22px;
+  }
+}

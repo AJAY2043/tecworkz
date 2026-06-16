@@ -1,0 +1,32 @@
+.cta {
+  background: var(--navy);
+  background-image: radial-gradient(circle at 85% 30%, rgba(46, 92, 219, 0.35), transparent 55%),
+    radial-gradient(circle at 15% 70%, rgba(255, 122, 69, 0.25), transparent 55%);
+}
+
+.cta__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 64px 24px;
+}
+
+.cta__heading {
+  color: var(--white);
+  font-size: clamp(24px, 3.4vw, 34px);
+  margin-bottom: 8px;
+}
+
+.cta__text {
+  color: #B7C4DE;
+  font-size: 15.5px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .cta__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

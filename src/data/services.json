@@ -1,0 +1,54 @@
+[
+  {
+    "id": "web-software",
+    "icon": "code",
+    "title": "Web & Software Development",
+    "short": "Custom websites and business applications built around how you actually work.",
+    "description": "We design and build responsive websites, internal tools and web applications using modern frameworks like React. Every build is tailored to your workflow, from first concept through to deployment and support.",
+    "features": [
+      "Custom websites & landing pages",
+      "Web applications & client portals",
+      "E-commerce storefronts",
+      "Ongoing maintenance & updates"
+    ]
+  },
+  {
+    "id": "it-support",
+    "icon": "support",
+    "title": "IT Support & Helpdesk",
+    "short": "Responsive, local IT support that keeps your team productive every day.",
+    "description": "From troubleshooting day-to-day issues to setting up new hardware and software, our helpdesk team provides fast, friendly support so your staff can focus on their work, not their tech.",
+    "features": [
+      "Remote & on-site support",
+      "Hardware & software setup",
+      "Device and user management",
+      "Proactive system monitoring"
+    ]
+  },
+  {
+    "id": "networking",
+    "icon": "network",
+    "title": "Networking & Infrastructure",
+    "short": "Reliable networks and infrastructure designed to grow with your business.",
+    "description": "We design, install and maintain wired and wireless networks, servers and cloud infrastructure that keep your business connected, secure and ready to scale.",
+    "features": [
+      "Network design & installation",
+      "Wi-Fi & connectivity solutions",
+      "Server setup & maintenance",
+      "Infrastructure upgrades"
+    ]
+  },
+  {
+    "id": "cloud-security",
+    "icon": "shield",
+    "title": "Cloud & Cybersecurity",
+    "short": "Protect your data and move to the cloud with confidence.",
+    "description": "We help businesses migrate to the cloud, set up secure backups and put practical cybersecurity measures in place to protect data, devices and accounts from common threats.",
+    "features": [
+      "Cloud migration & setup",
+      "Data backup & recovery",
+      "Security audits & hardening",
+      "Staff security awareness training"
+    ]
+  }
+]
