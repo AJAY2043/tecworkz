@@ -11,8 +11,8 @@ const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
 const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
 
 const CONTACT_INFO = [
-  { icon: 'mail', label: 'Email', value: 'info@tecworkz.com.au', href: 'mailto:info@tecworkz.com.au' },
-  { icon: 'phone', label: 'Phone', value: '+61 3 0000 0000', href: 'tel:+61300000000' },
+  { icon: 'mail', label: 'Email', value: 'ashwath@tecworkz.com.au', href: 'mailto:ashwath@tecworkz.com.au' },
+  { icon: 'phone', label: 'Phone', value: '0450 391 099', href: 'tel:+61450391099' },
   { icon: 'pin', label: 'Location', value: 'Melbourne, VIC, Australia', href: null },
   { icon: 'clock', label: 'Hours', value: 'Mon–Fri, 9am–5:30pm AEST', href: null },
 ];
