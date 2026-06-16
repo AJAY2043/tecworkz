@@ -4,11 +4,9 @@ import PageHero from '../../components/PageHero/PageHero';
 import Icon from '../../components/Icon/Icon';
 import './Contact.css';
 
-// ⚠️ TODO: Replace these 3 values once your EmailJS account is set up.
-// Get them from https://dashboard.emailjs.com/admin
-const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+const EMAILJS_SERVICE_ID = 'service_r8fke55';
+const EMAILJS_TEMPLATE_ID = 'template_snd74or';
+const EMAILJS_PUBLIC_KEY = 'Tw4ihtqKKpnvqMipH';
 
 const CONTACT_INFO = [
   { icon: 'mail', label: 'Email', value: 'ashwath@tecworkz.com.au', href: 'mailto:ashwath@tecworkz.com.au' },
