@@ -3,13 +3,14 @@ import emailjs from '@emailjs/browser';
 import PageHero from '../../components/PageHero/PageHero';
 import Icon from '../../components/Icon/Icon';
 import './Contact.css';
+import SEO from '../../components/SEO/SEO';
 
 const EMAILJS_SERVICE_ID = 'service_r8fke55';
 const EMAILJS_TEMPLATE_ID = 'template_snd74or';
 const EMAILJS_PUBLIC_KEY = 'Tw4ihtqKKpnvqMipH';
 
 const CONTACT_INFO = [
-  { icon: 'mail', label: 'Email', value: 'ashwath@tecworkz.com.au', href: 'mailto:ashwath@tecworkz.com.au' },
+  { icon: 'mail', label: 'Email', value: 'info@tecworkz.com.au', href: 'mailto:info@tecworkz.com.au' },
   { icon: 'phone', label: 'Phone', value: '0450 391 099', href: 'tel:+61450391099' },
   { icon: 'pin', label: 'Location', value: 'Melbourne, VIC, Australia', href: null },
   { icon: 'clock', label: 'Hours', value: 'Mon–Fri, 9am–5:30pm AEST', href: null },
@@ -60,6 +61,10 @@ function Contact() {
 
   return (
     <>
+     <SEO
+    title="Contact TecWorkz — Get a Free Quote"
+    description="Get in touch with TecWorkz for a free quote on web development, IT support, or networking services in Melbourne."
+  />
       <PageHero
         eyebrow="Contact Us"
         title="Let's talk about your project"

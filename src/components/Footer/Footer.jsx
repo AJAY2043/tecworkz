@@ -18,6 +18,15 @@ function Footer() {
             Practical software, networks and IT support for growing
             businesses across Melbourne.
           </p>
+          <a
+            href="https://www.linkedin.com/company/tecworkz-australia-pty-ltd/people/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer__social-link"
+            aria-label="TecWorkz on LinkedIn"
+          >
+            <Icon name="linkedin" />
+          </a>
         </div>
 
         <div className="footer__column">
@@ -44,10 +53,10 @@ function Footer() {
           <h4 className="footer__heading">Contact</h4>
           <ul className="footer__links footer__links--contact">
             <li>
-              <Icon name="mail" /> <a href="mailto:ashwath@tecworkz.com.au">ashwath@tecworkz.com.au</a>
+              <Icon name="mail" /> <a href="mailto:info@tecworkz.com.au">info@tecworkz.com.au</a>
             </li>
             <li>
-               <Icon name="phone" /> <a href="tel:+61450391099">0450 391 099</a>
+              <Icon name="phone" /> <a href="tel:+61450391099">0450 391 099</a>
             </li>
             <li>
               <Icon name="pin" /> Melbourne, VIC, Australia

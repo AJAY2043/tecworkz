@@ -21,6 +21,7 @@ import {
   faPaperPlane,
   faCircleCheck,
 } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 // Maps short keys to Font Awesome icons so components can do <Icon name="code" />
 // Add new icons here as the site grows — keep keys lowercase and short.
@@ -45,6 +46,7 @@ const ICON_MAP = {
   chevronRight: faChevronRight,
   send: faPaperPlane,
   success: faCircleCheck,
+  linkedin: faLinkedin,
 };
 
 function Icon({ name, className = '' }) {

@@ -3,10 +3,15 @@ import Icon from '../../components/Icon/Icon';
 import CTA from '../../components/CTA/CTA';
 import services from '../../data/services.json';
 import './Services.css';
+import SEO from '../../components/SEO/SEO';
 
 function Services() {
   return (
     <>
+     <SEO
+    title="Our Services — Web Development, IT Support & Networking | TecWorkz"
+    description="Explore TecWorkz's IT services: web and software development, IT support and helpdesk, networking and infrastructure, cloud and cybersecurity."
+  />
       <PageHero
         eyebrow="Our Services"
         title="Practical IT services for growing businesses"

@@ -3,6 +3,7 @@ import Icon from '../../components/Icon/Icon';
 import CTA from '../../components/CTA/CTA';
 import team from '../../data/team.json';
 import './About.css';
+import SEO from '../../components/SEO/SEO';
 
 const VALUES = [
   {
@@ -25,6 +26,10 @@ const VALUES = [
 function About() {
   return (
     <>
+     <SEO
+    title="About TecWorkz — Melbourne IT Services Team"
+    description="Learn about TecWorkz, a Melbourne-based IT services company helping small and growing businesses with web development, support and networking."
+  />
       <PageHero
         eyebrow="About Us"
         title="Technology partners who actually understand small business"
