@@ -54,8 +54,9 @@ function Contact() {
         setFormData({ name: '', email: '', phone: '', message: '' });
       })
       .catch((error) => {
-        console.error('EmailJS error:', error);
-        setStatus('error');
+  console.error('EmailJS error status:', error.status);
+  console.error('EmailJS error text:', error.text);
+  setStatus('error');
       });
   };
 
