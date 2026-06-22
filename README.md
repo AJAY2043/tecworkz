@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# TecWorkz — Technology for Tomorrow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Professional website for **TecWorkz**, a Melbourne-based IT services company.
 
-## Available Scripts
+🌐 **Live Site:** [tecworkz.com.au](https://tecworkz.com.au)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## About This Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a real freelance project built for an Australian IT firm operating 
+in Melbourne. The company provides IT services, web development, networking, 
+and cybersecurity solutions to businesses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Modern responsive design matching company branding
+- Services showcase section
+- About the company section
+- Working contact form via EmailJS — submissions delivered directly to client inbox
+- Deployed on Netlify with custom GoDaddy domain
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js** — component-based frontend
+- **EmailJS** — contact form email delivery, no backend required
+- **CSS3** — custom responsive styling
+- **Netlify** — hosting and continuous deployment
+- **GoDaddy** — custom domain configuration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Highlights
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is my first Australian freelance project — built for a real 
+Melbourne IT company client. Demonstrates ability to deliver 
+production-ready work for a professional business.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Developer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Ajay Krishna Reddy Bhavanam**  
+[linkedin.com/in/ajay-krishna-reddy](https://linkedin.com/in/ajay-krishna-reddy)
